@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oq-Tepa Lavash</title>
+    <link rel="shortcut icon" href="./img/oqtepa_logo.10f1ede4.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="modal-2">
+        <div class="modal-wrodded" id="modal-wrodded">
+             <h1 class="modal-text">Korzinka</h1>
+             <button class="modal-x"> &times;</button>
+        </div>
+    </div>
+    <div class="registratsiya-modal">
+        <div class="registratsiya-wrapper">
+            <h3 class="registratsiya-title">Xush Kelibsiz</h3>
+            <p class="registratsiya-text">Telefon raqamingiz bilan kiring</p>
+            <button class="registratsiya-btn"> &times; </button>
+
+            <form action="htpp://eco.html.academy.ru">
+                 <input class="input-name" type="text" placeholder="Ism">
+                 <input class="input-nomer" type="^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$" placeholder="+998"><br>
+
+                 <button class="kirish-btn"><a class="kirish-link" href="http://echo.htmlacademy.ru">Kirish</a></button>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav nav">
+                <a href="./index.html"><img src="./img/oqtepa_logo.10f1ede4.svg" alt="img" height="60px"> </a>
+                <ul class="nav__menu menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Главная</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Филиалы</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">О нас</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Контакты</a></li>
+                </ul>
+                <div class="blogs">
+                    <a href="tel:+998938408883" class="nav__button"><i class="fas fa-phone-alt"> &nbsp; </i>+998(78) 150-00-30</a>
+                    <button class="nav__btn">Войти</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <ul id="list" class="list"></ul>
+        <section class="modal">
+            <div class="content">
+              <img class="modal__img" id="modal__img">
+              <div class="blog">
+                <h2 class="modal-title"></h2>
+                <p class="text"></p>
+                <h4 class="modal-prace"></h4>
+                <ul class="modal__list">
+                    <li class="modal__list-title">Количество</li>
+                    <li class ="modal__list-box">
+                        <button class= "remove"  id="remove">-</button>
+                        <span id="span">1</span>
+                        <button class="add" id="add">+</button>
+                     </li>
+                </ul>   
+              </div>                  
+              <button class="modal__btn">&times;</button>
+              <button type="submit" class = "modal__btn2" class="modal__btn2">В Корзтну</button>
+            </div>
+        </section>
+
+        <button class="cards__button" id="cards__button">
+            <span class="total__item" id= "total__item"><i class="fas fa-shopping-cart"></i>0 шт</span>
+            <span class="total__price" id= "total__price">0 sum</span>
+        </button>
+    </main>
+
+    <footer class = "footer">
+        <div class="container">
+            <nav class="footer__nav nav">
+                <a href="./index.html"><img src="./img/oqtepa_logo.10f1ede4.svg" alt="img" height="60px"> </a>
+                <ul class="nav__menu menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Главная</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Филиалы</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">О нас</a></li>
+                    <li class="menu__item"><a href="./index.html" class="menu__item-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="footer__bottom">
+                <p class="text">&copy; 2017–2020, ООО «Oq-Tepa Lavash», официальный сайт</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/xojimurod.sultonov.948" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/sultonov.kx/" class="fab fa-instagram"></a>
+                    <a href="https://t.me/WebDeveloper0808" class="fab fa-telegram-plane"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!------------------------- javascript------------------------ -->
+
+    <script src="./js/script.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
